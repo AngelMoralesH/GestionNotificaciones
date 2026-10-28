@@ -6,6 +6,7 @@ import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) {
+        int a =47;
         Path path = Path.of("files","ventas.txt");
         System.out.println(path );
         System.out.println(Files.exists(path));
